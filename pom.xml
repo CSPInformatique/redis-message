@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<groupId>org.springframework.boot</groupId>
+		<version>1.1.4.RELEASE</version>
+	</parent>
+
+	<groupId>com.cspinformatique.redis.message</groupId>
+	<artifactId>redis-message</artifactId>
+
+	<version>0.0.1-SNAPSHOT</version>
+
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>redis-message-core</module>
+		<module>redis-message-client</module>
+		<module>redis-message-server</module>
+	</modules>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>com.cspinformatique.redis.message</groupId>
+				<artifactId>redis-message-core</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>com.cspinformatique</groupId>
+				<artifactId>commons</artifactId>
+				<version>0.1.0</version>
+			</dependency>
+			<dependency>
+				<groupId>org.jredis</groupId>
+				<artifactId>jredis</artifactId>
+				<version>1.0 RC2</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+</project>
