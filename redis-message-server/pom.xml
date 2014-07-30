@@ -65,5 +65,13 @@
 			<groupId>com.cspinformatique.redis.message</groupId>
 			<artifactId>redis-message-core</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-config</artifactId>
+		</dependency>
 	</dependencies>
 </project>
