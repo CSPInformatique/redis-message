@@ -1,4 +1,4 @@
-FROM tifayuki/java:java7
+FROM dockerfile/java:oracle-java7
 
 MAINTAINER Daniel Lavoie <dlavoie@cspinformatiqe.com>
 

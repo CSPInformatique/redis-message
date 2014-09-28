@@ -1,0 +1,1 @@
+docker run --name wevan-redis-message-server --link wevan-redis:redis -d cspinformatique/redis-message-server

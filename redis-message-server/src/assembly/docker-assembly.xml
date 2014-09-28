@@ -17,7 +17,7 @@
 		</fileSet>
 		
 		<fileSet>
-			<directory>docker-image</directory>
+			<directory>docker-resources/image</directory>
 			<outputDirectory>/</outputDirectory>
 			<includes>
 				<include>*</include>
