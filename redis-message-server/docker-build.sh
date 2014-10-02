@@ -1,5 +1,5 @@
 mvn clean install
 
-unzip target/docker.zip -o -d target
+unzip target/docker.zip -d target
 
 docker build -t cspinformatique/redis-message-server target/docker
